@@ -40,7 +40,7 @@ Xin chào 👋 Đây là ứng dụng Todo List cơ bản được xây dựng b
 ### Clone project về máy:
 
 ```bash
-git clone https://github.com/tuanduy35399/My-TodoList-LocalStorage.git
+git clone https://github.com/tuanduy35399/My-TodoList-MERN.git
 ```
 
 ### Truy cập vào thư mục chứa dự án
