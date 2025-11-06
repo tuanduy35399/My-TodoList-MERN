@@ -17,7 +17,7 @@ Xin chào 👋 Đây là ứng dụng Todo List cơ bản được xây dựng b
 
 ## 🖼️ Demo giao diện
 
-![Ảnh demo](/demo_web.png)
+![Ảnh demo](frontend/public/demo_web.png)
 
 ---
 
