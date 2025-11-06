@@ -54,11 +54,13 @@ npm i
 ### Khởi chạy dự án
 Ở folder frontend:
 ```bash
+cd frontend/
 npm run dev
 ```
 
 Ở folder backend:
 ```bash
+cd backend/
 npm start //để chạy node
 hoặc
 npm run dev //để chạy nodemon
