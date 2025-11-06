@@ -1,0 +1,74 @@
+.layout.TodoList{
+    /* width: 90%; */
+   width: 720px;
+   height: 90vh;
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 20px;
+     box-shadow: 10px 10px 32px -14px rgba(19,127,127,0.75);
+-webkit-box-shadow: 10px 10px 32px -14px rgba(19,127,127,0.75);
+-moz-box-shadow: 10px 10px 32px -14px rgba(19,127,127,0.75);
+    padding: 10px;
+    margin:20px auto;
+}
+@media (max-width:720px){
+    .layout.TodoList{
+    width: 90%;
+    min-height: auto;   /* cho mobile, để nó co theo nội dung */
+    padding: 8px;
+    }
+}
+textarea{
+box-shadow: -1px 26px 19px -28px rgba(19,127,127,0.75);
+-webkit-box-shadow: -1px 26px 19px -28px rgba(19,127,127,0.75);
+-moz-box-shadow: -1px 26px 19px -28px rgba(19,127,127,0.75);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+.layout.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}  
+textarea{
+    font-size: 14px;
+    width: 80%;
+    min-height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: rgba(219, 231, 242, 0.327);
+    /* margin: 10px 10px 0;  */
+    transition: border 2s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+textarea:hover{
+    /* border: 1px solid rgba(4, 58, 100, 0.722); */
+    transform: scale(1.02);
+}
+textarea::placeholder{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight:bold;
+}
+textarea:focus{
+    background-color: rgb(236, 243, 250);
+}
+.Todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    max-height: calc(90vh - 200px);
+    /* trừ phần input + title */
+    overflow-y: auto;
+    /* hiển thị thanh cuộn khi quá dài */
+    scrollbar-width: thin;
+    /* thanh cuộn mảnh hơn */
+    padding-right: 8px;
+    /* tránh nội dung dính sát biên */
+    overflow-x: hidden;
+}
